@@ -1,4 +1,4 @@
-import { Dispatch, FC } from "react";
+import { Dispatch, FC, memo } from "react";
 import Input from "../../UI/inputs/searchInput/Input";
 import Filters from "../../components/Filters/Filters";
 import './Search.scss';
@@ -9,7 +9,7 @@ interface SearchProps {
    setSort: Dispatch<React.SetStateAction<string>>
 }
 
-const Search:FC<SearchProps> = ({fetchData, setCategory, setSort}) => {
+const Search:FC<SearchProps> = memo(({fetchData, setCategory, setSort}) => {
   return (
    <div className="main__search search">
       <h1 className="search__title">Search for books</h1>
@@ -25,6 +25,6 @@ const Search:FC<SearchProps> = ({fetchData, setCategory, setSort}) => {
       <div className="search__background"></div>
    </div>
   )
-}
+})
 
 export default Search

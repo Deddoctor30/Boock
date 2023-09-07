@@ -17,6 +17,11 @@
       grid-template-columns: repeat(auto-fit, 320px);
       gap: 40px;
    }
+   &__button {
+      display: block;
+      justify-content: center;
+      text-align: center;
+   }
 }
 .book-item-enter {
    opacity: 0;
