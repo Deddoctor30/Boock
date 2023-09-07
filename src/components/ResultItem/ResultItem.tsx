@@ -1,12 +1,19 @@
 import { FC } from "react"
 import { IBook } from "../../types/IBook"
+import { useNavigate } from 'react-router-dom'
 import './ResultItem.scss'
+
 interface ResultItemProps {
    data: IBook
+   id: string
  }
-const ResultItem:FC<ResultItemProps> = ({data}) => {
+const ResultItem:FC<ResultItemProps> = ({data, id}) => {
+   const navigate = useNavigate()
+   const bookLoader = () => {
+      navigate(`/${id}`);
+   }
   return (
-      <div className="results__item item">
+      <div className="results__item item" onClick={bookLoader}>
          <div className="item__thumb">
             <img src={data.volumeInfo.imageLinks.thumbnail} alt={data.volumeInfo.title} />
          </div>

@@ -1,19 +1,18 @@
 import { Route, Routes } from "react-router-dom";
 import Main from "./pages/Main/Main";
-import NoMatch from "./pages/NoMatch";
+import NoMatch from "./pages/NoMatch/NoMatch";
 import './styles/_global.scss'
-import Layout from "./components/Layout";
+import { Book } from "./pages/Book/Book";
 
 function App() {
   return (
     <div className="wrapper">
       <div className="container">
-        <Main />
+        {/* <Main/> */}
         <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route index element={<Main />} />
-            <Route path="*" element={<NoMatch />} />
-          </Route>
+          <Route path="/" element={<Main />} />
+          <Route path="/:id" element={<Book />} />
+          <Route path="*" element={<NoMatch />} />
         </Routes>
       </div>
     </div>

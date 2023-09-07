@@ -1,0 +1,46 @@
+@import '../../styles/variables';
+@import '../../styles/mixins';
+.book {
+   &__body {
+      display: flex;
+      margin-bottom: 50px;
+   }
+   &__image {
+      flex: 0 1 35%;
+      position: relative;
+      background-color: $shadow;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 50px;
+      img {
+         min-height: 500px;
+         max-height: 700px;
+         box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 10px 5px 16px 0px
+      }
+   }
+   &__description {
+      flex: 0 1 65%;
+      // padding: 50px;
+      padding: 50px 50px 0px 50px;
+   }
+   &__categories {
+      color: $textSecondary;
+      margin-bottom: 50px;
+   }
+   &__name {
+      @include style(2rem, 140%);
+      margin-bottom: 15px;
+   }
+   &__authors {
+      color: $textSecondary;
+      text-decoration: underline;
+      margin-bottom: 30px;
+   }
+   &__text {
+      border: 1px solid $shadow;
+      padding: 20px;
+      @include style (1.125rem, 140%);
+      text-align: justify;
+   }
+}

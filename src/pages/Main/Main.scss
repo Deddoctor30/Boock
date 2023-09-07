@@ -1,35 +1,5 @@
-@import '../../styles/mixins';
-@import '../../styles/variables';
 .main {
    display: flex;
    flex-direction: column;
    align-items: center;
-   &__controls {
-      position: relative;
-      text-align: center;
-      width: 100%;
-   }
-   &__title {
-      margin: 30px 0px;
-      @include style(3rem, 150%);
-      color: $textLight;
-      font-weight: 700;
-   }
-   &__search {
-      margin-bottom: 20px;
-   }
-   &__background {
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 100%;
-      filter: brightness(60%);
-      background-image: url('../../../public/img/bg.jpg');
-      background-size: cover;
-      background-position-y: 40%;
-      background-repeat: no-repeat;
-      z-index: -100;
-      
-   }
 }

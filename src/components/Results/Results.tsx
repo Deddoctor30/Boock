@@ -24,7 +24,7 @@ const Results:FC<ResultsProps> = ({data, category}) => {
           { 
             categodyData?.map(item => 
               <CSSTransition classNames="book-item" timeout={500} key={item.id}>
-                  <ResultItem data={item} />
+                  <ResultItem data={item} id={item.id}/>
               </CSSTransition>
           )}
         </TransitionGroup>

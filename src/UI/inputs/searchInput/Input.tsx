@@ -27,7 +27,7 @@ const Input:FC<InputProps> = ({getData, type = 'text', width, height, sx}) => {
          />
       <button 
          style={{width: `${height}px`, height: `${height}px`}} 
-         className='ibutton'
+         className='isearch-button'
       ></button>
    </form>
   )
