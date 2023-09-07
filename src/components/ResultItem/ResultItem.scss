@@ -1,0 +1,42 @@
+@import '../../styles/variables';
+.item {
+   display: flex;
+   flex-direction: column;
+   padding: 40px 10px 20px 20px;
+   background-color: $shadow;
+   &__thumb {
+      text-align: center;
+      img {
+         box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 10px 5px 16px 0px
+      }
+   }
+   &__description {
+      margin-top: 20px;
+   }
+   &__category {
+      color: $textSecondary;
+      text-decoration: underline;
+   }
+   &__title {
+      margin-top: 18px;
+      font-weight: 700;
+   }
+   &__author {
+      margin-top: 8px;
+      color: $textSecondary;
+   }
+}
+.book-item-enter {
+   opacity: 0;
+ }
+ .book-item-enter-active {
+   opacity: 1;
+   transition: opacity 500ms ease-in;
+ }
+ .book-item-exit {
+   opacity: 1;
+ }
+ .book-item-exit-active {
+   opacity: 0;
+   transition: opacity 500ms ease-in;
+ }

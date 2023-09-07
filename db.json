@@ -1,0 +1,340 @@
+{
+   "result":
+{
+   "kind": "books#volumes",
+   "totalItems": 767,
+   "items": [
+     {
+       "kind": "books#volume",
+       "id": "ktkDAAAAQAAJ",
+       "etag": "NYQrvV7XwpA",
+       "selfLink": "https://www.googleapis.com/books/v1/volumes/ktkDAAAAQAAJ",
+       "volumeInfo": {
+         "title": "Flowers and their associations",
+         "authors": [
+           "Anne Pratt"
+         ],
+         "publishedDate": "1840",
+         "industryIdentifiers": [
+           {
+             "type": "OTHER",
+             "identifier": "OXFORD:590805315"
+           }
+         ],
+         "readingModes": {
+           "text": false,
+           "image": true
+         },
+         "pageCount": 448,
+         "printType": "BOOK",
+         "categories": [
+           "Botany"
+         ],
+         "maturityRating": "NOT_MATURE",
+         "allowAnonLogging": false,
+         "contentVersion": "0.3.5.0.full.1",
+         "panelizationSummary": {
+           "containsEpubBubbles": false,
+           "containsImageBubbles": false
+         },
+         "imageLinks": {
+           "smallThumbnail": "http://books.google.com/books/content?id=ktkDAAAAQAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+           "thumbnail": "http://books.google.com/books/content?id=ktkDAAAAQAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+         },
+         "language": "en",
+         "previewLink": "http://books.google.ru/books?id=ktkDAAAAQAAJ&printsec=frontcover&dq=flowers&hl=&as_brr=7&cd=1&source=gbs_api",
+         "infoLink": "https://play.google.com/store/books/details?id=ktkDAAAAQAAJ&source=gbs_api",
+         "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ktkDAAAAQAAJ"
+       },
+       "saleInfo": {
+         "country": "RU",
+         "saleability": "FREE",
+         "isEbook": true,
+         "buyLink": "https://play.google.com/store/books/details?id=ktkDAAAAQAAJ&rdid=book-ktkDAAAAQAAJ&rdot=1&source=gbs_api"
+       },
+       "accessInfo": {
+         "country": "RU",
+         "viewability": "ALL_PAGES",
+         "embeddable": true,
+         "publicDomain": true,
+         "textToSpeechPermission": "ALLOWED",
+         "epub": {
+           "isAvailable": false,
+           "downloadLink": "http://books.google.ru/books/download/Flowers_and_their_associations.epub?id=ktkDAAAAQAAJ&hl=&output=epub&source=gbs_api"
+         },
+         "pdf": {
+           "isAvailable": true,
+           "downloadLink": "http://books.google.ru/books/download/Flowers_and_their_associations.pdf?id=ktkDAAAAQAAJ&hl=&output=pdf&sig=ACfU3U3t31n5hoTWLkxSLsAOK6I3ZhgdHw&source=gbs_api"
+         },
+         "webReaderLink": "http://play.google.com/books/reader?id=ktkDAAAAQAAJ&hl=&as_brr=7&source=gbs_api",
+         "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+         "quoteSharingAllowed": false
+       }
+     },
+     {
+       "kind": "books#volume",
+       "id": "2bCdaZ7KvDsC",
+       "etag": "hetMPnFPmPc",
+       "selfLink": "https://www.googleapis.com/books/v1/volumes/2bCdaZ7KvDsC",
+       "volumeInfo": {
+         "title": "The Language of Flowers",
+         "subtitle": "The Floral Offering: a Token of Affection and Esteem; Comprising the Language and Poetry of Flowers ...",
+         "authors": [
+           "Henrietta Dumont"
+         ],
+         "publishedDate": "1852",
+         "industryIdentifiers": [
+           {
+             "type": "OTHER",
+             "identifier": "HARVARD:32044013658547"
+           }
+         ],
+         "readingModes": {
+           "text": true,
+           "image": true
+         },
+         "pageCount": 330,
+         "printType": "BOOK",
+         "categories": [
+           "Flower language"
+         ],
+         "maturityRating": "NOT_MATURE",
+         "allowAnonLogging": false,
+         "contentVersion": "0.4.6.0.full.3",
+         "panelizationSummary": {
+           "containsEpubBubbles": false,
+           "containsImageBubbles": false
+         },
+         "imageLinks": {
+           "smallThumbnail": "http://books.google.com/books/content?id=2bCdaZ7KvDsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+           "thumbnail": "http://books.google.com/books/content?id=2bCdaZ7KvDsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+         },
+         "language": "en",
+         "previewLink": "http://books.google.ru/books?id=2bCdaZ7KvDsC&printsec=frontcover&dq=flowers&hl=&as_brr=7&cd=2&source=gbs_api",
+         "infoLink": "https://play.google.com/store/books/details?id=2bCdaZ7KvDsC&source=gbs_api",
+         "canonicalVolumeLink": "https://play.google.com/store/books/details?id=2bCdaZ7KvDsC"
+       },
+       "saleInfo": {
+         "country": "RU",
+         "saleability": "FREE",
+         "isEbook": true,
+         "buyLink": "https://play.google.com/store/books/details?id=2bCdaZ7KvDsC&rdid=book-2bCdaZ7KvDsC&rdot=1&source=gbs_api"
+       },
+       "accessInfo": {
+         "country": "RU",
+         "viewability": "ALL_PAGES",
+         "embeddable": true,
+         "publicDomain": true,
+         "textToSpeechPermission": "ALLOWED",
+         "epub": {
+           "isAvailable": true,
+           "downloadLink": "http://books.google.ru/books/download/The_Language_of_Flowers.epub?id=2bCdaZ7KvDsC&hl=&output=epub&source=gbs_api"
+         },
+         "pdf": {
+           "isAvailable": true,
+           "downloadLink": "http://books.google.ru/books/download/The_Language_of_Flowers.pdf?id=2bCdaZ7KvDsC&hl=&output=pdf&sig=ACfU3U1n9agbciLzFXS4cd_vmKAJsTiEZA&source=gbs_api"
+         },
+         "webReaderLink": "http://play.google.com/books/reader?id=2bCdaZ7KvDsC&hl=&as_brr=7&source=gbs_api",
+         "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+         "quoteSharingAllowed": false
+       }
+     },
+     {
+       "kind": "books#volume",
+       "id": "ezbPAAAAMAAJ",
+       "etag": "CFSJsPI6W84",
+       "selfLink": "https://www.googleapis.com/books/v1/volumes/ezbPAAAAMAAJ",
+       "volumeInfo": {
+         "title": "The Language of Flowers",
+         "subtitle": "The Floral Offering: a Token of Affection and Esteem, Comprising the Language and Poetry of Flowers",
+         "authors": [
+           "Henrietta Dumont"
+         ],
+         "publishedDate": "1853",
+         "industryIdentifiers": [
+           {
+             "type": "OTHER",
+             "identifier": "IND:39000001640817"
+           }
+         ],
+         "readingModes": {
+           "text": false,
+           "image": true
+         },
+         "pageCount": 334,
+         "printType": "BOOK",
+         "categories": [
+           "Flower language"
+         ],
+         "maturityRating": "NOT_MATURE",
+         "allowAnonLogging": false,
+         "contentVersion": "1.7.7.0.full.1",
+         "panelizationSummary": {
+           "containsEpubBubbles": false,
+           "containsImageBubbles": false
+         },
+         "imageLinks": {
+           "smallThumbnail": "http://books.google.com/books/content?id=ezbPAAAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+           "thumbnail": "http://books.google.com/books/content?id=ezbPAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+         },
+         "language": "en",
+         "previewLink": "http://books.google.ru/books?id=ezbPAAAAMAAJ&printsec=frontcover&dq=flowers&hl=&as_brr=7&cd=3&source=gbs_api",
+         "infoLink": "https://play.google.com/store/books/details?id=ezbPAAAAMAAJ&source=gbs_api",
+         "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ezbPAAAAMAAJ"
+       },
+       "saleInfo": {
+         "country": "RU",
+         "saleability": "FREE",
+         "isEbook": true,
+         "buyLink": "https://play.google.com/store/books/details?id=ezbPAAAAMAAJ&rdid=book-ezbPAAAAMAAJ&rdot=1&source=gbs_api"
+       },
+       "accessInfo": {
+         "country": "RU",
+         "viewability": "ALL_PAGES",
+         "embeddable": true,
+         "publicDomain": true,
+         "textToSpeechPermission": "ALLOWED",
+         "epub": {
+           "isAvailable": false,
+           "downloadLink": "http://books.google.ru/books/download/The_Language_of_Flowers.epub?id=ezbPAAAAMAAJ&hl=&output=epub&source=gbs_api"
+         },
+         "pdf": {
+           "isAvailable": true,
+           "downloadLink": "http://books.google.ru/books/download/The_Language_of_Flowers.pdf?id=ezbPAAAAMAAJ&hl=&output=pdf&sig=ACfU3U3Q3Q3nWSRBnAP5LEcTo802QrMq8g&source=gbs_api"
+         },
+         "webReaderLink": "http://play.google.com/books/reader?id=ezbPAAAAMAAJ&hl=&as_brr=7&source=gbs_api",
+         "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+         "quoteSharingAllowed": false
+       }
+     },
+     {
+       "kind": "books#volume",
+       "id": "0iI4AAAAYAAJ",
+       "etag": "Ufq3JpCgMZM",
+       "selfLink": "https://www.googleapis.com/books/v1/volumes/0iI4AAAAYAAJ",
+       "volumeInfo": {
+         "title": "The Flower Vase",
+         "subtitle": "Containing the Language of Flowers, and Their Poetic Sentiments",
+         "authors": [
+           "Sarah Carter Edgarton Mayo"
+         ],
+         "publishedDate": "1850",
+         "industryIdentifiers": [
+           {
+             "type": "OTHER",
+             "identifier": "PRNC:32101068142429"
+           }
+         ],
+         "readingModes": {
+           "text": false,
+           "image": true
+         },
+         "pageCount": 176,
+         "printType": "BOOK",
+         "categories": [
+           "Flower language"
+         ],
+         "maturityRating": "NOT_MATURE",
+         "allowAnonLogging": false,
+         "contentVersion": "0.5.8.0.full.1",
+         "panelizationSummary": {
+           "containsEpubBubbles": false,
+           "containsImageBubbles": false
+         },
+         "imageLinks": {
+           "smallThumbnail": "http://books.google.com/books/content?id=0iI4AAAAYAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+           "thumbnail": "http://books.google.com/books/content?id=0iI4AAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+         },
+         "language": "en",
+         "previewLink": "http://books.google.ru/books?id=0iI4AAAAYAAJ&printsec=frontcover&dq=flowers&hl=&as_brr=7&cd=4&source=gbs_api",
+         "infoLink": "https://play.google.com/store/books/details?id=0iI4AAAAYAAJ&source=gbs_api",
+         "canonicalVolumeLink": "https://play.google.com/store/books/details?id=0iI4AAAAYAAJ"
+       },
+       "saleInfo": {
+         "country": "RU",
+         "saleability": "FREE",
+         "isEbook": true,
+         "buyLink": "https://play.google.com/store/books/details?id=0iI4AAAAYAAJ&rdid=book-0iI4AAAAYAAJ&rdot=1&source=gbs_api"
+       },
+       "accessInfo": {
+         "country": "RU",
+         "viewability": "ALL_PAGES",
+         "embeddable": true,
+         "publicDomain": true,
+         "textToSpeechPermission": "ALLOWED",
+         "epub": {
+           "isAvailable": false,
+           "downloadLink": "http://books.google.ru/books/download/The_Flower_Vase.epub?id=0iI4AAAAYAAJ&hl=&output=epub&source=gbs_api"
+         },
+         "pdf": {
+           "isAvailable": true,
+           "downloadLink": "http://books.google.ru/books/download/The_Flower_Vase.pdf?id=0iI4AAAAYAAJ&hl=&output=pdf&sig=ACfU3U0F9fUhoHZpjLQbJBhvIMcNwIZHHg&source=gbs_api"
+         },
+         "webReaderLink": "http://play.google.com/books/reader?id=0iI4AAAAYAAJ&hl=&as_brr=7&source=gbs_api",
+         "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+         "quoteSharingAllowed": false
+       }
+     },
+     {
+       "kind": "books#volume",
+       "id": "3eVhAAAAcAAJ",
+       "etag": "OrJ3ua/UQd0",
+       "selfLink": "https://www.googleapis.com/books/v1/volumes/3eVhAAAAcAAJ",
+       "volumeInfo": {
+         "title": "The Etiquette of Flowers; Their Language and Sentiments, Etc",
+         "publishedDate": "1852",
+         "industryIdentifiers": [
+           {
+             "type": "OTHER",
+             "identifier": "BL:A0019924979"
+           }
+         ],
+         "readingModes": {
+           "text": false,
+           "image": true
+         },
+         "pageCount": 86,
+         "printType": "BOOK",
+         "maturityRating": "NOT_MATURE",
+         "allowAnonLogging": false,
+         "contentVersion": "0.4.4.0.full.1",
+         "panelizationSummary": {
+           "containsEpubBubbles": false,
+           "containsImageBubbles": false
+         },
+         "imageLinks": {
+           "smallThumbnail": "http://books.google.com/books/content?id=3eVhAAAAcAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+           "thumbnail": "http://books.google.com/books/content?id=3eVhAAAAcAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+         },
+         "language": "en",
+         "previewLink": "http://books.google.ru/books?id=3eVhAAAAcAAJ&printsec=frontcover&dq=flowers&hl=&as_brr=7&cd=5&source=gbs_api",
+         "infoLink": "https://play.google.com/store/books/details?id=3eVhAAAAcAAJ&source=gbs_api",
+         "canonicalVolumeLink": "https://play.google.com/store/books/details?id=3eVhAAAAcAAJ"
+       },
+       "saleInfo": {
+         "country": "RU",
+         "saleability": "FREE",
+         "isEbook": true,
+         "buyLink": "https://play.google.com/store/books/details?id=3eVhAAAAcAAJ&rdid=book-3eVhAAAAcAAJ&rdot=1&source=gbs_api"
+       },
+       "accessInfo": {
+         "country": "RU",
+         "viewability": "ALL_PAGES",
+         "embeddable": true,
+         "publicDomain": true,
+         "textToSpeechPermission": "ALLOWED",
+         "epub": {
+           "isAvailable": false,
+           "downloadLink": "http://books.google.ru/books/download/The_Etiquette_of_Flowers_Their_Language.epub?id=3eVhAAAAcAAJ&hl=&output=epub&source=gbs_api"
+         },
+         "pdf": {
+           "isAvailable": false
+         },
+         "webReaderLink": "http://play.google.com/books/reader?id=3eVhAAAAcAAJ&hl=&as_brr=7&source=gbs_api",
+         "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+         "quoteSharingAllowed": false
+       }
+     }
+   ]
+ }
+}

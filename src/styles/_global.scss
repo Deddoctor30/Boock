@@ -1,0 +1,27 @@
+@import './null.scss';
+@import './variables.scss';
+@import './fonts.scss';
+
+* {
+   transition: 0.3s all ease 0s;
+}
+
+html, body {
+   font-family: 'Roboto', sans-serif;
+	font-size: $fontSize;
+   line-height: normal;
+   font-weight: 400;
+	color: $textDark;
+}
+
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+}
+
+.container {
+   max-width: $screen;
+   padding: 0px 15px;
+   box-sizing: content-box;
+   margin: 0 auto;
+}
