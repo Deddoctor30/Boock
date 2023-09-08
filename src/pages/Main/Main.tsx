@@ -1,5 +1,5 @@
 import Results from "../../components/Results/Results";
-import { booksApi } from "../../api/booksApi";
+import { useLazyGetBookQuery, useLazyGetBooksQuery } from "../../api/booksApi";
 import { useCallback, useEffect, useState } from "react";
 import Search from "../../components/Search/Search";
 import { Book } from "../Book/Book";
@@ -9,8 +9,8 @@ import Spinner from "../../UI/spinner/Spinner";
 const Main = () => {
   // В book api ограничение на запрос - 40 элементов, при шаге в 30, дозагрузка уходит в ошибку
   const stepValue = 30;
-  const [ booksTrigger, { data: books, error: booksError, isFetching: booksIsFetching } ] = booksApi.useLazyGetBooksQuery()
-  const [ bookTrigger, { data: book, error, isFetching } ] = booksApi.useLazyGetBookQuery()
+  const [ booksTrigger, { data: books, error: booksError, isFetching: booksIsFetching } ] = useLazyGetBooksQuery()
+  const [ bookTrigger, { data: book, error, isFetching } ] = useLazyGetBookQuery()
   const [indicator, setIndicator] = useState('')
   const [category, setCategory] = useState('All')
   const [sort, setSort] = useState('relevance')
@@ -34,6 +34,8 @@ const Main = () => {
       })
     }
   }, [step])
+  console.log(book);
+  
   const fetchData = useCallback((value: string) => {
     setFetchInputData(value)
     booksTrigger({

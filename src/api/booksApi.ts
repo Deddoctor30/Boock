@@ -16,3 +16,5 @@ export const booksApi = createApi({
     })
   })
 })
+
+export const {useLazyGetBookQuery, useLazyGetBooksQuery, useGetBookQuery} = booksApi

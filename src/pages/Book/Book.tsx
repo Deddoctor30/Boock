@@ -1,8 +1,5 @@
-import { FC, useState } from "react"
+import { FC } from "react"
 import { IBook } from "../../types/IBook"
-import { booksApi } from "../../api/booksApi"
-import Search from "../../components/Search/Search"
-import { Link, useParams } from "react-router-dom";
 import './Book.scss';
 
 interface BookProps {
